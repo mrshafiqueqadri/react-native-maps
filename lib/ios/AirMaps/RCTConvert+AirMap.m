@@ -33,7 +33,8 @@ RCT_ENUM_CONVERTER(MKMapType, (@{
   @"hybrid": @(MKMapTypeHybrid),
   @"satelliteFlyover": @(MKMapTypeSatelliteFlyover),
   @"hybridFlyover": @(MKMapTypeHybridFlyover),
-  @"mutedStandard": @(MKMapTypeMutedStandard)
+  //@"mutedStandard": @(MKMapTypeMutedStandard)
+  @"mutedStandard": @(MKMapTypeStandard)
 }), MKMapTypeStandard, integerValue)
 
 // NOTE(lmr):
